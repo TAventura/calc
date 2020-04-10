@@ -1,0 +1,76 @@
+* {
+    text-align: center;
+    
+}
+
+.joda {
+    margin-top: 2%;
+    margin-bottom: 0;
+    margin-left: 20%;
+    text-align: left;
+    font-size: 10px;
+}
+
+a {
+    margin-top: 0;
+    margin-left: 20%;
+    text-align: left;
+    font-size: 20px;
+}
+
+#cuerpo {
+    width: 20%;
+    background-color: #2b2e2c;
+    background-image: url(images/fondo2.jpg);
+    background-size: cover;
+    border-radius: 5%;
+    padding: 2%;
+    color: #fff;
+    border: 1px solid #000;
+
+    -webkit-box-shadow: 0px 0px 3px 1px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 3px 1px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 3px 1px rgba(0,0,0,0.75);
+}
+
+#cuerpo p {
+    text-align: right;
+    font-size: 9px;
+    margin-right: 13%;
+}
+
+#visor {
+    width: 75%;
+    background-color: rgb(194, 240, 209, 0.9);
+    text-align: right;
+    border: 2px solid #000;
+}
+
+.boton {
+    color: #fff;
+    font-weight: 900;
+    /*background-color: #434a4a;*/
+    background-color: #2b2e2c;
+    border-radius: 20%;
+    border: 1px solid #000;
+
+    -webkit-box-shadow: 0px 0px 3px 1px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 3px 1px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 3px 1px rgba(0,0,0,0.75);
+}
+
+#mas, #on {
+    background-color: #20a8a4;
+}
+
+#on {
+    border-radius: 100%;
+    width: 20px;
+    height: 37px;
+}
+
+.amarillos {
+    border-radius: 100%;
+    background-color: yellow;
+    height: 10px;
+}

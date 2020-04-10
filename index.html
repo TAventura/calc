@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="estilos.css">
+    <title>Calculator</title>
+</head>
+<body>
+    <header>
+        <h1 class="display-3">Calculadora que me pidió mi novia</h1>
+    </header>
+
+    <div id="cuerpo" class="container mt-5">
+
+        <p>KK-402 <br> ELECTRONIC CALCULATOR </p>
+
+        <input id="visor" type="text" disabled class="col">
+
+        <div class="row mt-3 no-gutters justify-content-center align-items-center">
+            <input class="boton col-2 ml-2 mr-2" type="button" value="ON" id="on" onclick="prender()">
+            <input class="boton col-2 ml-2 mr-2 amarillos" type="button" id="a1">
+            <input class="boton col-2 ml-2 mr-2 amarillos" type="button" id="a2">
+            <input class="boton col-2 ml-2 mr-2 amarillos" type="button" id="a3">
+            <!--<label for="a1">MRC</label>
+            <label for="a2">M-</label>
+            <label for="a3">M+</label> -->
+        </div>
+
+        <div class="row mt-3 no-gutters justify-content-center">
+            <input class="boton col-2 ml-2 mr-2" type="button" value="OFF" onclick="apagar()">
+            <input class="boton col-2 ml-2 mr-2" type="button" value="-/">
+            <!--<button class="boton col-2 ml-2 mr-2">CE</button> -->
+            <input class="boton col-2 ml-2 mr-2" type="button" value="%">
+            <input class="boton col-2 ml-2 mr-2" type="button" value="/" onclick="dividir()">
+        </div>
+
+        <div class="row mt-3 no-gutters justify-content-center">
+            <input class="boton col-2 ml-2 mr-2" type="button" value="7" onclick="siete()">
+            <input class="boton col-2 ml-2 mr-2" type="button" value="8" onclick="ocho()">
+            <input class="boton col-2 ml-2 mr-2" type="button" value="9" onclick="nueve()">
+            <input class="boton col-2 ml-2 mr-2" type="button" value="x" onclick="multiplicar()">
+        </div>
+
+        <div class="row mt-3 no-gutters justify-content-center">
+            <input class="boton col-2 ml-2 mr-2" type="button" value="4" onclick="cuatro()">
+            <input class="boton col-2 ml-2 mr-2" type="button" value="5" onclick="cinco()">
+            <input class="boton col-2 ml-2 mr-2" type="button" value="6" onclick="seis()">
+            <input class="boton col-2 ml-2 mr-2" type="button" value="-" onclick="restar()">
+        </div>
+
+        <div class="row mt-3 ml-0 mr-0 mb-0 no-gutters justify-content-center">
+            <input class="boton col-2 ml-2 mr-2" type="button" value="1" onclick="uno()">
+            <input class="boton col-2 ml-2 mr-2" type="button" value="2" onclick="dos()">
+            <input class="boton col-2 ml-2 mr-2" type="button" value="3" onclick="tres()">
+            <input class="boton col-2 ml-2 mr-2" type="button" value="+" onclick="sumar()" id="mas">
+        </div>
+
+        <div class="row mt-3 no-gutters justify-content-left">
+            <input class="boton col-2 ml-3 mr-2" type="button" value="0" onclick="cero()">
+            <input class="boton col-2 ml-2 mr-2" type="button" value="." onclick="punto()">
+            <input class="boton col-2 ml-2 mr-2" type="button" value="=" onclick="igual()">
+        </div>
+    </div>
+
+    <p class="joda">Powered by: Love <br> All rights reserved</p>
+    <a href="manual.html">Leer el Manual del Usuario</a>
+
+    <script src="app.js"></script>
+</body>
+</html>
